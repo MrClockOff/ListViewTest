@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ListViewTest.Pages.MenuPage"
+             Title="Menu">
+  <StackLayout VerticalOptions="Center">
+    <Button Text="Add item" HorizontalOptions="Center" Command="{Binding AddItemCommand}" />
+    <Button Text="Clear items" HorizontalOptions="Center" Command="{Binding ClearItemsCommand}" />
+  </StackLayout>
+</ContentPage>
